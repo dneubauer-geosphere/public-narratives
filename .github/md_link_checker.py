@@ -10,6 +10,7 @@ import urllib3
 import random
 import time
 from datetime import datetime, timezone
+from curl_cffi import requests as cffi_requests
 from urllib.parse import urlparse
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
